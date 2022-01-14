@@ -1,8 +1,10 @@
 This is the contributions log for the UVis team. This file is used to document in real time the contributions each team member is committing to the project.
 
-1/13/2022 11:00am-1:00pm Kyle Amberman : Worked on the setup and configuration for the new Raspberry Pi B. Initial hardware cconstruction completed with the screen, rasp pi,
+1/13/2022 11:00 am - 1:00 pm Kyle Amberman : Worked on the setup and configuration for the new Raspberry Pi B. Initial hardware cconstruction completed with the screen, rasp pi,
 and nior camera.
 
-1/13/2022 11:20am-1:00pm Joseph Pacifici : Created a schematic which will be used to create the casing that holds the UVShield with all of its components. Discussed potential battery power solutions and sizes to fit the discussed case. Designed the overall boot screen, display, and shut down.
+1/13/2022 11:20 am - 1:00 pm Joseph Pacifici : Created a schematic which will be used to create the casing that holds the UVShield with all of its components. Discussed potential battery power solutions and sizes to fit the discussed case. Designed the overall boot screen, display, and shut down.
 
-1/13/2022 11:00am-1:00pm Beckett Hoefling : Helped with the setup and configuration for the new Raspberry Pi B. Set up remote vnc connection and getting touchscreen working.
+1/13/2022 11:00 am - 1:00 pm Beckett Hoefling : Helped with the setup and configuration for the new Raspberry Pi B. Set up remote vnc connection and getting touchscreen working.
+
+1/13/2022 12:00 pm - 1:00 pm Alexis todd: Helped connect rasp pi to laptop and met with team to discuss future responsibilities
