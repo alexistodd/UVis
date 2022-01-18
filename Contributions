@@ -1,6 +1,6 @@
 This is the contributions log for the UVis team. This file is used to document in real time the contributions each team member is committing to the project.
 
-1/13/2022 11:00 am - 1:00 pm Kyle Amberman : Worked on the setup and configuration for the new Raspberry Pi B. Initial hardware cconstruction completed with the screen, rasp pi,
+1/13/2022 11:00 am - 1:00 pm Steven Amberman : Worked on the setup and configuration for the new Raspberry Pi B. Initial hardware cconstruction completed with the screen, rasp pi,
 and nior camera.
 
 1/13/2022 11:20 am - 1:00 pm Joseph Pacifici : Created a schematic which will be used to create the casing that holds the UVShield with all of its components. Discussed potential battery power solutions and sizes to fit the discussed case. Designed the overall boot screen, display, and shut down.
@@ -14,3 +14,5 @@ and nior camera.
 1/18/2022 11:15 - 12:15 pm Alexis Todd: Researched on running application at startup and soldering the power button and LED switches
 
 1/18/2022 10:40 am - 12:40 pm Beckett Hoefling : Began designing the schematics for the build and created a logo for the startup screen.
+
+1/18/2022 10:30 am - 3:00 pm Steven Amberman: Purchased lithuim ion battery to power the raspberry pi. Took device measurements and began solidworks construction for case.
