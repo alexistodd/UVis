@@ -13,6 +13,9 @@ To operate the UV Shield component follow these step by step instructions:
 4. Use the second button to toggle the UV LEDs when indoors.
 5. Press the power button to initiate the shutdown process to safely shutdown the UV Shield.
 
+
+![screen-gif](./Video.gif)
+
 ## CONTACT
 
 stevenamberman@ufl.edu
