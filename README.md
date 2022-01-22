@@ -1,4 +1,4 @@
-# <img src="./Logo.png" alt="Logo" width="100" height="100">   UV Shield 
+# UV Shield 
 ## README
 
 UV Shield is a handheld component that allows users to see incoming UV rays on their skin. 
