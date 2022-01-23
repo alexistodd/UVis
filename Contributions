@@ -28,4 +28,6 @@ code which will be used for start up and shut down. Worked on raspberry pi with 
 
 1/20/2022 10:30 am - 2:00 pm Joseph Pacifici : Identified and implemented how to boot raspberri pi into the camera application with full screen upon power up. Learned the power output capablities of the GPIO pins and helped to create the beginnings of the LED python application.
 
-1/20/2022 11:00 pm - 1:00 pm Beckett Hoefling : Researched how to add a custom loading screen for the device and how to add a power button.                                            
+1/20/2022 11:00 pm - 1:00 pm Beckett Hoefling : Researched how to add a custom loading screen for the device and how to add a power button.
+
+1/21/2022 8:00 pm - 9:00 pm Steven Amberman : Setup and performed alpha build demo, submitted alpha build & alpha test documents.                                        
