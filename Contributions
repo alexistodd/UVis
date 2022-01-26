@@ -30,4 +30,6 @@ code which will be used for start up and shut down. Worked on raspberry pi with 
 
 1/20/2022 11:00 pm - 1:00 pm Beckett Hoefling : Researched how to add a custom loading screen for the device and how to add a power button.
 
+1/20/2022 11:00 pm - 2:00 pm Alexis Todd : Working with buttons and creating a thread to run camera and button input at the same time. 
+
 1/21/2022 8:00 pm - 9:00 pm Steven Amberman : Setup and performed alpha build demo, submitted alpha build & alpha test documents.                                        
