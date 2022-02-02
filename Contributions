@@ -43,3 +43,5 @@ code which will be used for start up and shut down. Worked on raspberry pi with 
 2/1/2022 1:30 pm - 2:30 pm Steven Amberman: Soldered LED light strip. Tested functionality.
 
 2/1/2022 11:30 am - 4:30 pm Arthur Guimaraes: Shutdown button functionallity, debug some issues at startup. Research to implement the logo at startup from the terminal rather than the desktop.
+
+2/1/2022 10:30 pm - 1:30 pm Beckett Hoefling : Tested various LED configurations with the camera.
