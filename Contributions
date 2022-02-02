@@ -49,3 +49,5 @@ code which will be used for start up and shut down. Worked on raspberry pi with 
 2/1/2022 10:30 pm - 1:30 pm Beckett Hoefling : Tested various LED configurations with the camera.
 
 2/1/2022 10:30 pm - 1:30 pm Alexis Todd : Helped solder LED light strip, discussed case design, found information on UF 3D printing, discussed roadmap and priorities, ordered supplies for wire wrapping.
+
+2/2/2022 2:00pm - 5:00 pm Steven Amberman: Debug corrupted SD card for PI OS. Cleaned, reformatted, and reinstalled Raspian OS on the SD card. Purchased glass cutter, and made cuts to UV filter.
