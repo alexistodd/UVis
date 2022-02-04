@@ -53,3 +53,7 @@ code which will be used for start up and shut down. Worked on raspberry pi with 
 2/1/222 1:00 pm - 4:00 pm Joseph Pacifici : Help to create a start up image to be displayed before booting into camera mode.
 
 2/2/2022 2:00pm - 5:00 pm Steven Amberman: Debug corrupted SD card for PI OS. Cleaned, reformatted, and reinstalled Raspian OS on the SD card. Purchased glass cutter, and made cuts to UV filter.
+
+2/3/2022 10:30am - 1:30pm Arthur Guimaraes: Helped on the SolidWorks case design.
+
+2/3/2022 4:00pm - 5:30pm Arthur Guimaraes: Fixed the camera issue not properly working. Added the python code to initiliaze after the desktop and fixed the proper adjusment to the LCD screen.
