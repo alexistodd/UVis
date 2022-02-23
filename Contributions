@@ -91,3 +91,5 @@ code which will be used for start up and shut down. Worked on raspberry pi with 
 2/14/2022 10:30pm - 1:30 Arthur Guimaraes: Fixed the program not to initiliaze that startup. Implemented the mouse to dissappear when not in use. Researched into opencv.
 
 2/15/2022 12:00am - 3:00pm: Steven Amberman: Configured second raspberry pi and camera setup. Downloaded and configured OS on another SD, updated OS to legacy picamera settings. Tested camera functionality with UV filter.
+
+2/23/2022 8:00am - 11:00am: Beckett Hoefling: Researched into ways to improve camera settings
