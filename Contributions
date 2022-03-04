@@ -70,11 +70,11 @@ code which will be used for start up and shut down. Worked on raspberry pi with 
 
 2/4/2022 8:00pm - 8:15pm Steven Amberman: Reviewed and confirmed purchasing order for the case with UF Marston library.
 
-2/7/2022 9:00 - 11:00pm Steven Amberman: Drafted and submitted progress presentation deck.
+2/7/2022 9:00pm - 11:00pm Steven Amberman: Drafted and submitted progress presentation deck.
 
 2/8/2022 3:00pm - 6:00pm Steven Amberman: Began assembly on device for presentation. Lightbar constructed, component attached to the case.
 
-2/9/2022 3:30 - 7:30pm Joseph Pacifici: Finished assembly for device for beta presentation. Attached UV LEDs to raspberry pi through wire wrapping and tested functionality.
+2/9/2022 3:30pm - 7:30pm Joseph Pacifici: Finished assembly for device for beta presentation. Attached UV LEDs to raspberry pi through wire wrapping and tested functionality.
 
 2/9/2022 10:00am - 1:00pm Beckett Hoefling: Researched ways to use touch screen.
 
@@ -94,4 +94,10 @@ code which will be used for start up and shut down. Worked on raspberry pi with 
 
 2/23/2022 8:00am - 11:00am: Beckett Hoefling: Researched into ways to improve camera settings
 
+02/06/2022 1:00pm - 2:30pm: Alexis Todd: Testing out new filter, testing out different suncreens and UV light glasses 
+
+03/02/2022 5:00pm - 7:00pm: Alexis Todd: Schematic and PCB Design for transistor based LED switch. Parts Ordering. 
+
 3/3/2022 11:00am -12:00pm: Joseph Pacifici: Cleaned up the Git hub and researched how to create a progress bar for boot up.
+
+03/03/2022 1:00pm - 10:00pm: Alexis Todd: Calibrating PCB to Case measurements in solidworks and altium. Developing prototype PCB and Case Rev2.0. 
