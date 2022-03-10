@@ -7,11 +7,11 @@ and nior camera.
 
 01/13/2022 11:00 am - 01:00 pm Beckett Hoefling : Helped with the setup and configuration for the new Raspberry Pi B. Set up remote vnc connection and getting touchscreen working.
 
-01/13/2022 12:00 pm - 01:00 pm Alexis Todd		  : Helped connect rasp pi to laptop and met with team to discuss future responsibilities
+01/13/2022 12:00 pm - 01:00 pm Alexis Todd	: Helped connect rasp pi to laptop and met with team to discuss future responsibilities
 
 01/13/2022 11:30 pm - 01:00 pm Arthur Guimaraes	: Helped with the schematic for the UVShield. Research potential components for the device such as LEDs, switches, buttons and battery.
 
-01/18/2022 11:15 am - 12:15 pm Alexis Todd		  : Researched on running application at startup and soldering the power button and LED switches
+01/18/2022 11:15 am - 12:15 pm Alexis Todd	: Researched on running application at startup and soldering the power button and LED switches
 
 01/18/2022 10:40 am - 12:40 pm Beckett Hoefling : Began designing the schematics for the build and created a logo for the startup screen.
 
@@ -30,15 +30,15 @@ and nior camera.
 
 01/20/2022 11:00 pm - 01:00 pm Beckett Hoefling : Researched how to add a custom loading screen for the device and how to add a power button.
 
-01/20/2022 11:00 pm - 02:00 pm Alexis Todd 		  : Working with buttons and creating a thread to run camera and button input at the same time. 
+01/20/2022 11:00 pm - 02:00 pm Alexis Todd 	: Working with buttons and creating a thread to run camera and button input at the same time. 
 
 01/21/2022 08:00 pm - 09:00 pm Steven Amberman 	: Setup and performed alpha build demo, submitted alpha build & alpha test documents.  
 
-01/25/2022 09:30 pm - 10:30 pm Alexis Todd		  : Researched on adding more depth to camera code
+01/25/2022 09:30 pm - 10:30 pm Alexis Todd	: Researched on adding more depth to camera code
 
 01/25/2022 10:30 pm - 01:00 pm Beckett Hoefling : Setup a custom boot screen with our logo. Began testing the battery power for the device and tested UV leds with the camera.
 
-01/29/2022 12:00 pm - 03:00 pm Alexis Todd 		  : Fixed button debouncing, added extra button for debug or power support, added appropriate threads to run camera, use lights, and shutdown device appropriately
+01/29/2022 12:00 pm - 03:00 pm Alexis Todd 	: Fixed button debouncing, added extra button for debug or power support, added appropriate threads to run camera, use lights, and shutdown device appropriately
 
 02/01/2022 10:00 am - 11:30 pm Steven Amberman	: Soldered lipo battery to power modules, soldered usb power supply and wires. Troubleshooting began on power, charge up confirmed. Still having issues with constant power supply.
 
@@ -48,7 +48,7 @@ and nior camera.
 
 02/01/2022 10:30 pm - 01:30 pm Beckett Hoefling : Tested various LED configurations with the camera.
 
-02/01/2022 10:30 pm - 01:30 pm Alexis Todd 		  : Helped solder LED light strip, discussed case design, found information on UF 3D printing, discussed roadmap and priorities, ordered supplies for wire wrapping.
+02/01/2022 10:30 pm - 01:30 pm Alexis Todd 	: Helped solder LED light strip, discussed case design, found information on UF 3D printing, discussed roadmap and priorities, ordered supplies for wire wrapping.
 
 02/01/2022 01:00 pm - 04:00 pm Joseph Pacifici 	: Help to create a start up image to be displayed before booting into camera mode.
 
@@ -66,7 +66,7 @@ and nior camera.
 
 02/04/2022 01:00 pm - 01:30 pm Steven Amberman	: Edited betabuild and betatest documents for the milestone assigment.
 
-02/04/2022 06:00 pm - 09:00 pm Alexis Todd	  	: Wirewrapped buttons and lights to pins on board, took and prepared demo video for beta submission. 
+02/04/2022 06:00 pm - 09:00 pm Alexis Todd	: Wirewrapped buttons and lights to pins on board, took and prepared demo video for beta submission. 
 
 02/04/2022 08:00 pm - 08:15 pm Steven Amberman	: Reviewed and confirmed purchasing order for the case with UF Marston library.
 
@@ -78,7 +78,7 @@ and nior camera.
 
 02/09/2022 10:00 am - 01:00 pm Beckett Hoefling	: Researched ways to use touch screen.
 
-02/10/2022 01:00 pm - 03:00 pm Alexis Todd	  	: In depth research on appropriate UV bandpass filter to get best image for UV photography at an affordable price. 
+02/10/2022 01:00 pm - 03:00 pm Alexis Todd	: In depth research on appropriate UV bandpass filter to get best image for UV photography at an affordable price. 
 
 02/10/2022 01:00 pm - 05:00 pm Beckett Hoefling	: Researched UV filters and best ways to show sunscreen. Began testing touchscreen.
 
@@ -94,22 +94,22 @@ and nior camera.
 
 02/23/2022 08:00 am - 11:00 am Beckett Hoefling	: Researched into ways to improve camera settings
 
-02/26/2022 01:00 pm - 02:30 pm Alexis Todd		  : Testing out new filter, testing out different suncreens and UV light glasses 
+02/26/2022 01:00 pm - 02:30 pm Alexis Todd	: Testing out new filter, testing out different suncreens and UV light glasses 
 
-03/02/2022 05:00 pm - 07:00 pm Alexis Todd		  : Schematic and PCB Design for transistor based LED switch. Parts Ordering. 
+03/02/2022 05:00 pm - 07:00 pm Alexis Todd	: Schematic and PCB Design for transistor based LED switch. Parts Ordering. 
 
 03/03/2022 11:00 am - 12:00 pm Joseph Pacifici	: Cleaned up the Git hub and researched how to create a progress bar for boot up.
 
-03/03/2022 01:00 pm - 10:00 pm Alexis Todd	  	: Calibrating PCB to Case measurements in solidworks and altium. Developing prototype PCB and Case Rev2.0.
+03/03/2022 01:00 pm - 10:00 pm Alexis Todd	: Calibrating PCB to Case measurements in solidworks and altium. Developing prototype PCB and Case Rev2.0.
 
 03/02/2022 02:00 pm - 04:00 pm Steven Amberman	: Research for preliminary report.
 
 03/03/2022 10:00 am - 02:00 pm Steven Amberman	: Started preliminary report draft.
 
-03/04/2022 12:00 pm - 03:00 pm Alexis Todd 	  	: Research and writing section for background and part of introduction. 
+03/04/2022 12:00 pm - 03:00 pm Alexis Todd 	: Research and writing section for background and part of introduction. 
 
 03/04/2022 05:00 pm - 08:55 pm Steven Amberman	: Completed preliminary report.
 
-03/09/2022 03:00 pm - 08:00 pm Alexis Todd		  : Finished double checking front case design, created backcase design, wrapped up and double checked assembly. 
+03/09/2022 03:00 pm - 08:00 pm Alexis Todd	: Finished double checking front case design, created backcase design, wrapped up and double checked assembly. 
 
-03/10/2022 01:00 pm - 02:30 pm Alexis Todd		  : Finished PCB pouring, checked routing, and ordered PCB. 
+03/10/2022 01:00 pm - 02:30 pm Alexis Todd	: Finished PCB pouring, checked routing, and ordered PCB. 
