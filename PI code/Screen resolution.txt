@@ -1,0 +1,24 @@
+How to change the screen resolution for raspberry pi
+https://www.waveshare.com/wiki/4inch_HDMI_LCD
+
+When enabling the touch screen for the raspberry pi, the resolution was changed to fit the small screen.
+Above is the link to enable the touch screen and all necessary drivers
+
+To change it back to normal viewing:
+1. sudo nano /boot/config.txt
+2. At the bottom, comment out all lines noted by
+# Comment out for normal resolution
+#display_rotate=1
+#hdmi_group=2
+#hdmi_mode=87
+#hdmi_timings=480 0 40 10 80 800 0 13 3 32 0 0 0 60 0 32000000 3
+#dtoverlay=ads7846,cs=1,penirq=25,penirq_pull=2,speed=50000,keep_vref_on=0,swap>
+#hdmi_drive=1
+#hdmi_force_hotplug=1
+#max_usb_current=1
+#dtoverlay=imx219
+#dtoverlay=vc4-fkms-v3d
+#disable_splash=1
+3. Ctrl X and save the file and reboot.
+
+NOTE: You will no longer see anything on the small LCD screen when booting up you will have to use VNC viewer to see what is displayed.
