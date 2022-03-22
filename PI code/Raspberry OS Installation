@@ -4,8 +4,13 @@ Links:
 
 Notes:  
         A Raspberry Pi 3 was used for this project
+        The Raspberry Pi 3 does not have a power button
         The recommended SD card size is 32 GB. While larger sizes may be possible, the recommended size is 32 GB
 
 Steps:
         1. Go to the above website and follow the instructions to install the latest version of Raspberry Pi OS onto an SD card
-        2. The video on the page is very helpful
+                a. The video on the page is very helpful
+        2. Install the SD card to the Raspberry Pi
+        3. Connect the HDMI, Keyboard, and mouse to the Pi and to an HDMI display
+        4. Power on the device and allow the first installation setups to occur
+        5. Restart the pi by opening the terminal and using the command "sudo reboot"
