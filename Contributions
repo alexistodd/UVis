@@ -123,3 +123,5 @@ and nior camera.
 03/21/2022 10:00 pm - 02:30 am Joseph Pacifici 	: Finally figured out that VLC just isn't gonna work. Figured out how to install and operate omxplayer and its libraries and created a service for bootup. Now shows loading bar.
 
 03/22/2022 12:00 pm - 12:30 pm Alexis Todd      : Edited Case Design for bigger filter
+
+03/22/2022 12:00 pm - 1:30 pm Joseph Pacifici	: Uploaded all information regarding boot loading bar process into the "pi code" folder
