@@ -1,0 +1,93 @@
+Create a Custom Splash Video to be displayed on bootup of Raspberry Pi
+Links:
+        A. http://ric96.blogspot.com/2014/03/boot-animation-on-raspberry-pi.html (Method 1)
+        B. http://archive.raspberrypi.org/debian/pool/main/o/omxplayer/ (Archives for omxplayer)
+        C. https://forums.raspberrypi.com/viewtopic.php?t=323322 (Post made by fritzesfloete on Wed Dec 22, 2021)
+        D. https://www.tomshardware.com/how-to/custom-raspberry-pi-splash-screen (Method 2)
+
+Notes:
+        omxplyer is no longer avaliable through sudo apt-get omxplayer so an alternate method is described below in Step 2.
+        If any library or bash is no longer avaliable hopefully there is an archive.
+        VLC was not able to be run during bootup to display video.
+        There are two methods for creating a boot video. Method 1 makes it so that the splash image is displayed for a longer duration but does not display the video.
+            Method 2 correctly displays the video after the splash image.
+
+Steps:
+        1. Create a video of type .mp4 format to be displayed upon boot up and send it to the Raspberry pi over VNC
+            a. VLC should already be installed on the pi from regular installation.
+        2. Get omxplayer
+            a. Navigate to Link B which is the archives for omxplayer
+            b. Download omxplayer_20190723+gitf543a0d-1+bullseye_armhf.deb file (Also avaliable within this gitHub)
+                i. Move it over to raspberry Pi through VNC
+                ii. Install it by either right clicking on the package and selecting install or...
+                    $ sudo dpkg --install omxplayer_20190723+gitf543a0d-1+bullseye_armhf.deb (while in the correct directory with the terminal)
+            c. Install aptitude
+                i. sudo apt-get install aptitude
+            d. Install the libaries for omxplayer
+                $ sudo aptitude install libavcodec58 libavutil56 libswresample3 libavformat58
+            e. Update the pi
+                $ sudo rpi-update
+            f. Open "/boot/config.txt" ($ sudo nano /boot/config.txt")
+                i. Comment out # dtoverlay=vc4-kms-v3d
+            g. Reboot the pi
+    
+    Method 1: A service method
+        3. Make sure you have omxplayer installed correctly
+            a. Test by running ($ omxplayer your_video.mp4) within the terminal
+        4. Create this init script with your editor in /etc/init.d/asplashscreen
+            $ sudo nano /etc/init.d/asplashscreen
+        5. Paste the code below and replace "boot.mp4" with your_video.mp4" 
+            i. The & at the end of boot.mp4 means that it will run in the background
+#! /bin/sh
+### BEGIN INIT INFO
+# Provides:          asplashscreen
+# Required-Start:
+# Required-Stop:
+# Should-Start:      
+# Default-Start:     S
+# Default-Stop:
+# Short-Description: Show custom splashscreen
+# Description:       Show custom splashscreen
+### END INIT INFO
+
+do_start () {
+
+    omxplayer /home/pi/boot.mp4 &  
+    exit 0
+}
+
+case "$1" in
+  start|"")
+    do_start
+    ;;
+  restart|reload|force-reload)
+    echo "Error: argument '$1' not supported" >&2
+    exit 3
+    ;;
+  stop)
+    # No-op
+    ;;
+  status)
+    exit 0
+    ;;
+  *)
+    echo "Usage: asplashscreen [start|stop]" >&2
+    exit 3
+    ;;
+esac
+
+:
+        6. Run these commands
+            $ sudo chmod a+x /etc/init.d/asplashscreen (create the service)
+            $ sudo systemctl enable asplashscreen (enable the service)
+        7. Reboot the pi and run the commands again
+            $ sudo chmod a+x /etc/init.d/asplashscreen (create the service)
+            $ sudo systemctl enable asplashscreen (enable the service)
+            $ sudo systemctl start aspalshscreen (start the service to check if it works, this should display the video)
+            $ sudo systemctl status asplashscreen (This can be used for debugging, no need to run it)
+    
+    Method 2: Tom's Hardware setup
+        3. Open "/etc/rc.local" ($ sudo nano /etc/rc.local)
+        4. After fi but before exit 0 insert the line below
+            $ omxplayer /home/pi/your_video.mp4 &
+        5. Save and reboot the pi and the video should play after the splash screen image
