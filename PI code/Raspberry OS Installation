@@ -1,0 +1,11 @@
+Installing Raspberry OS on new SD device
+Links:
+        https://www.raspberrypi.com/software/
+
+Notes:  
+        A Raspberry Pi 3 was used for this project
+        The recommended SD card size is 32 GB. While larger sizes may be possible, the recommended size is 32 GB
+
+Steps:
+        1. Go to the above website and follow the instructions to install the latest version of Raspberry Pi OS onto an SD card
+        2. The video on the page is very helpful
