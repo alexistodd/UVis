@@ -1,0 +1,35 @@
+Create a custom splash image for bootup
+Links:
+        A. https://www.youtube.com/watch?v=kdugp7DrODY (Creating a custom Splash image)
+        
+Notes:
+        A file can be saved by using CTRL+X and then Y to save the motified buffer
+        Using this method will make the custom splash image only be displayed for a short period of time. (About 1 second) To make it longer, see "Creating a Splash
+            Video" with the section on service.
+        Link A provides a visual representation of how to do steps: 3a-3c below 
+            DANGER: Be aware that incorrectly altering "/boot/cmdline.txt" file can cause the Raspberry pi to fail to boot
+            
+Steps:
+        1. Prepare a splash image of type .png and send it to the pi (recommeneded to be placed into the /home/pi directory, but it doesn't matter where it is)
+        2. Disable the rainbow splash boot up image
+            a. Edit the config.txt file ($ sudo nano /boot/config.txt) and at the very bottom underneath [all] insert disable_splash=1
+        3. Disable all other startup texts
+            a. Open "/boot/cmdline.txt" as root ($ sudo nano /boot/cmdline.txt)
+            b. Replace "console=tty1" with "console=tty3"
+            c. Add the following at the end of the line. Remember to make sure that everything remains on the same line. No need to duplicate entries.
+                i. splash quiet plymouth.ignore-serial-consoles logo.nologo vt.global_cursor_default=0
+                    Here are brief explanations:
+                    "splash"                          : enables splash image
+                    "quiet"                           : disable boot message texts
+                    "plymouth.ignore-serial-consoles" : not sure about this but seems it’s required when use Plymouth.
+                    "logo.nologo"                     : removes Raspberry Pi logo in top left corner.
+                    "vt.global_cursor_default=0"      : removes blinking cursor.
+            d. Open "/usr/share/plymouth/themes/pix/pix.script" as root ($ sudo nano /usr/share/plymouth/themes/pix/pix.script")
+                i. Comment out 4 lines below
+                    # message_sprite = Sprite();
+	                # message_sprite.SetPosition(screen_width * 0.1, screen_height * 0.9, 10000);
+	                # my_image = Image.Text(text, 1, 1, 1);
+	                # message_sprite.SetImage(my_image);
+        4. Replace the splash screen image
+            a. $ sudo cp /home/pi/image_name.png /usr/share/plymouth/themes/pix/splash.png
+                cp stands for copy. In this case we are copying and overwriting the original splash image and placing in our own.
