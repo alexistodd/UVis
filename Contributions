@@ -120,4 +120,4 @@ and nior camera.
 
 03/21/2022 01:00 pm - 07:00 pm Joseph Pacifici	: Further investigated VLC for bootup loading screen. Worked with creating a service which operates as the pi bootsup
 
-03/21/2022 10:00 pm - 02:30 am Joseph Pacifici 	: Finally figured out that VLC just isn't gonna work. Figured out how to install and operate omxplayer and its libraries and created a service for bootup. Needs further testing.
+03/21/2022 10:00 pm - 02:30 am Joseph Pacifici 	: Finally figured out that VLC just isn't gonna work. Figured out how to install and operate omxplayer and its libraries and created a service for bootup. Now shows loading bar.
