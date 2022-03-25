@@ -89,7 +89,7 @@ esac
     Method 2: Tom's Hardware setup
         3. Open "/etc/rc.local" ($ sudo nano /etc/rc.local)
         4. After fi but before exit 0 insert the lines below
-            #adds splashscreen for boot
+            #adds splashscreen for boot to fill touchscreen
             omxplayer --aspect-mode stretch /home/pi/Loading3.mp4 &
 
         5. Save and reboot the pi and the video should play after the splash screen image
