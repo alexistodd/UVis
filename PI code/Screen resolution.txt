@@ -1,5 +1,6 @@
 How to change the screen resolution for raspberry pi
-https://www.waveshare.com/wiki/4inch_HDMI_LCD
+Use method 2 (this messes installs touch drivers and changes some of boot/config.txt to rescale the display)
+https://www.waveshare.com/w/upload/4/46/4inch_HDMI_LCD_User_Manual_EN.pdf
 
 When enabling the touch screen for the raspberry pi, the resolution was changed to fit the small screen.
 Above is the link to enable the touch screen and all necessary drivers
