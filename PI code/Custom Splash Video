@@ -52,7 +52,8 @@ Steps:
 
 do_start () {
 
-    omxplayer /home/pi/boot.mp4 &  
+    #adds splashscreen for boot to fill touchscreen
+    omxplayer --aspect-mode stretch /home/pi/Loading3.mp4 &
     exit 0
 }
 
