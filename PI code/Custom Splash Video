@@ -16,11 +16,9 @@ Steps:
         1. Create a video of type .mp4 format to be displayed upon boot up and send it to the Raspberry pi over VNC
             a. VLC should already be installed on the pi from regular installation.
         2. Get omxplayer
-            a. Navigate to Link B which is the archives for omxplayer
-            b. Download omxplayer_20190723+gitf543a0d-1+bullseye_armhf.deb file (Also avaliable within this gitHub)
-                i. Move it over to raspberry Pi through VNC
-                ii. Install it by either right clicking on the package and selecting install or...
-                    $ sudo dpkg --install omxplayer_20190723+gitf543a0d-1+bullseye_armhf.deb (while in the correct directory with the terminal)
+            a. Download old version of omx player for pi os Buster
+            b. Install it by either right clicking on the package and selecting install or...
+                    $ sudo dpkg --install omxplayer_20190607+gitf06235c-1_armhf.deb (while in the correct directory with the terminal)
             c. Install aptitude
                 i. sudo apt-get install aptitude
             d. Install the libaries for omxplayer
