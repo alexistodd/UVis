@@ -1,0 +1,13 @@
+Python camera app resources
+
+detect touch screen tap:
+https://www.circuitbasics.com/how-to-detect-keyboard-and-mouse-inputs-on-a-raspberry-pi/
+
+picamera functions:
+https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/4
+
+lightweight image viewer:
+https://man.finalrewind.org/1/feh/
+
+Pi config file settings:
+https://www.raspberrypi.com/documentation/computers/config_txt.html
