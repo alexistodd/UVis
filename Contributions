@@ -116,6 +116,8 @@ and nior camera.
 
 03/20/2022 03:00 pm - 06:00 pm Joseph Pacifici 	: Worked on creating a loading screen for the boot up. Tried using VLC because Omxplayer was no longer supported.
 
+03/18/2022 06:00 pm - 8:00 pm Steven Amberman   : UV filter testing
+
 03/21/2022 01:00 pm - 09:00 pm Arthur Guimaraes : Worked on the loading screen during the boot up of the pi.
 
 03/21/2022 01:00 pm - 07:00 pm Joseph Pacifici	: Further investigated VLC for bootup loading screen. Worked with creating a service which operates as the pi bootsup
@@ -128,8 +130,14 @@ and nior camera.
 
 03/25/2022 09:00 am - 04:00 pm Beckett Hoefling	: Reformatted os settings for the touch screen to work again and fixed boot up to look correct on small screen
 
+03/26/2022 04:00 pm - 06:00 pm Steven Amberman : UV filter testing
+
 03/26/2022 07:00 pm - 11:00 pm Beckett Hoefling	: Began testing a different ways to run camera through application
 
 03/27/2022 01:00 pm - 05:00 pm Beckett Hoefling	: Created an application that can capture and display a still image from a single tap on the touch screen
 
 03/28/2022 02:00 pm - 03:00 pm Beckett Hoefling	: Test fit PCB with screen and camera, rotated camera through software to fix upside down. Attempted to remove mouse cursor
+
+03/30/2022 03:00 pm - 0:400 pm Steven Amberman  : UV filter testing
+
+0/31/2022 10:30 am - 12:30 pm Steven Amberman : UV filter testing, started drafting presentation and final report
