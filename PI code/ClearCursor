@@ -1,0 +1,5 @@
+Go to https://raspberrypi.stackexchange.com/questions/53127/how-to-permanently-hide-mouse-pointer-or-cursor-on-raspberry-pi
+1. sudo nano /etc/lightdm/lightdm.conf
+2. Edit the xserver-command = 
+    change to xserver-command = X -nocursor
+3. sudo reboot
