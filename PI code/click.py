@@ -15,8 +15,8 @@ pygame.display.set_caption("Touchscreen Detection")
 camera.start_preview()
 
 #default brightness is 50
-#camera.brightness = 70
-
+camera.brightness = 70
+camera.rotation = 180
 #it’s important to sleep for at least
 #two seconds before capturing an image,
 #because this gives the camera’s sensor time to
